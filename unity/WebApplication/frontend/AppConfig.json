@@ -1,0 +1,18 @@
+﻿{
+  "UserLogin": false,
+  "SessionId": "c914ec502d666eba9069f88b293e64b7",
+  "MaximumUserSlots": 3,
+  "UserSessionTimout": 60,
+  "UserConnectingTimout": 10,
+  "UserInactiveTimeout": 10,
+  "LoadingScreenFadeTime": 1.0,
+  "CamerafyHttpListenerPort": 8888,
+  "SignaligServer": "localhost",
+  "SignaligServerPort": 61613,
+  "MessageExirationTime": 30,
+  "EnableWebrtcLogging": false,
+  "iceServers": [],
+  "MaxFps": 30,
+  "MaxFrameWidth": 320,
+  "MaxFrameHeight": 240
+}

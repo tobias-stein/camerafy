@@ -1,0 +1,1 @@
+artemis.cmd create CamerafyMQBroker --allow-anonymous --no-amqp-acceptor --no-hornetq-acceptor --no-mqtt-acceptor --user admin --password admin

@@ -1,0 +1,1 @@
+"C:\Program Files\Unity\Hub\Editor\2019.3.0a5\Editor\Data\Mono\lib\mono\2.0\svcutil" http://localhost:1989/CamerafyWCFService?wsdl -out "%cd%/CamerafyHttpServer/Service/CamerafyWCFServiceClient.cs"

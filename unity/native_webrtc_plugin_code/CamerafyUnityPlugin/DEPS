@@ -1,0 +1,15 @@
+include_rules = [
+  "+sdk",
+  "+sdk/objc",
+  "+common_video",
+  "+logging/rtc_event_log/rtc_event_log_factory.h",
+  "+media",
+  "+modules/audio_device",
+  "+modules/video_capture",
+  "+modules/audio_processing",
+  "+modules/utility",
+  "+p2p",
+  "+pc",
+  "+system_wrappers/include",
+  "+third_party/libyuv",
+]

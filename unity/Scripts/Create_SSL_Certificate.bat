@@ -1,0 +1,1 @@
+"..\Programs\makecert" -n CN=localhost -sr localmachine -ss My -sky exchange -pe

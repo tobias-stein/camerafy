@@ -1,0 +1,1 @@
+CamerafyMQBroker/bin/artemis.cmd run

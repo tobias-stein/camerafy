@@ -1,0 +1,35 @@
+﻿{
+  "MinZoom": 0.0,
+  "MaxZoom": 180.0,
+  "MaxLinearSpeed": 1.50,
+  "MaxAngularSpeed": 0.125,
+  "FieldOfView": 60.0,
+  "LinearDamping": 0.2,
+  "AngularDamping": 0.4,
+  "MoveUnitsPerSecond": 0.25,
+  "TurnDegreesPerSecond": 15.0,
+  "InverseControls": false,
+  "CameraBehaviours": {
+    "Camerafy.Camera.Free, Camerafy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "$type": "Camerafy.Camera.FreeBehaviourSettings, Camerafy",
+      "Weight": 0.0
+    },
+    "Camerafy.Camera.Orbit, Camerafy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "$type": "Camerafy.Camera.OrbitBehaviourSettings, Camerafy",
+      "Distance": 4.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "LookAtDamping": 1.0,
+      "ZoomDamping": 0.20,
+      "Weight": 1.0
+    },
+    "Camerafy.Camera.Lock, Camerafy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "$type": "Camerafy.Camera.LockBehaviourSettings, Camerafy",
+      "MinPitch": 5.0,
+      "MaxPitch": 175.0,
+      "MinYaw": 0.0,
+      "MaxYaw": 360.0,
+      "Weight": 1.0
+    }
+  }
+}

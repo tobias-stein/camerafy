@@ -1,0 +1,53 @@
+import("../webrtc.gni")
+import("//build/config/win/visual_studio_version.gni")
+
+config("d3d11")
+{
+    include_dirs = [ "C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um" ]
+}
+
+if(is_win) 
+{
+    rtc_shared_library("CamerafyUnityPlugin") 
+    {
+        configs += [ "//build/config/win:runtime_library", ":d3d11" ]
+        testonly = false
+        
+        sources = [
+            "Conductor.h",
+            "Conductor.cc",
+            
+            "unity_plugin_apis.h",
+            "unity_plugin_apis.cc",
+            
+            "Unity/IUnityInterface.h",      
+            "Unity/IUnityGraphics.h",    
+            
+            "RenderAPI/RenderAPI.h",
+            "RenderAPI/RenderAPI.cpp",
+
+            "RenderAPI/D3D11/IUnityGraphicsD3D11.h",      
+            "RenderAPI/D3D11/D3D11RenderAPI.cpp",      
+        ]
+    
+        deps = [
+            "../api:create_peerconnection_factory",
+            "../api:libjingle_peerconnection_api",
+            "../api/audio_codecs:builtin_audio_decoder_factory",
+            "../api/audio_codecs:builtin_audio_encoder_factory",
+            "../api/video_codecs:builtin_video_decoder_factory",
+            "../api/video_codecs:builtin_video_encoder_factory",
+            "../api/video:video_frame",
+            "../api/video:video_frame_i420",
+            "../api/video_codecs:video_codecs_api",
+            "../media:rtc_audio_video",
+            "../media:rtc_internal_video_codecs",
+            "../media:rtc_media",
+            "../media:rtc_media_base",
+            "../modules/video_capture:video_capture_module",
+            "../pc:libjingle_peerconnection",
+            "../pc:peerconnection",
+            "../rtc_base",
+        ]
+    }
+}

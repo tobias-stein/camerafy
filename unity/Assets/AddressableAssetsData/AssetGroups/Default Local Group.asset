@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 13fd8a675717d7844a84c82192539ebf
+  m_SerializeEntries:
+  - m_GUID: 22415888b6da3de40ae30fd4f4679a1c
+    m_Address: Assets/Models/Model2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - model
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_GUID: 388d9879340bbb14181ce9ab12cd5f61
+    m_Address: Assets/Models/Model1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - model
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_GUID: 7b09166663a62664684bcd3a128e9d64
+    m_Address: Assets/Environments/test
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - environment
+    m_mainAssetType: UnityEditor.SceneAsset, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - m_GUID: e5257cfffe541874aba1a9606b459479
+    m_Address: Assets/Models/Model3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - model
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aa6b410e0b0eba5428287f726bbce989, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 46e7edb454ffc0748acf6b654d8653ce, type: 2}
+    - {fileID: 11400000, guid: 86b76d6a89e3a334485cc3166c7c3e17, type: 2}

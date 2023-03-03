@@ -1,0 +1,26 @@
+[
+    {
+        "model": "auth.group", 
+        "pk": 1, 
+        "fields": {
+            "name": "CamerafySession", 
+            "permissions": []
+        }
+    },
+    {
+        "model": "auth.group", 
+        "pk": 2, 
+        "fields": {
+            "name": "CamerafyClient", 
+            "permissions": []
+        }
+    },
+    {
+        "model": "auth.group", 
+        "pk": 3, 
+        "fields": {
+            "name": "CamerafyLocalizationManager", 
+            "permissions": []
+        }
+    }
+]

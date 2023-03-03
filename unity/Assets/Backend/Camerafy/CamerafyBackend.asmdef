@@ -1,0 +1,14 @@
+{
+    "name": "CamerafyBackend",
+    "references": [
+        "GUID:0716e53680c0a7442a510aa21cfca46e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

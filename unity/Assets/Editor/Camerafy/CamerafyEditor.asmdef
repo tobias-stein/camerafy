@@ -1,0 +1,19 @@
+{
+    "name": "CamerafyEditor",
+    "references": [
+        "GUID:0716e53680c0a7442a510aa21cfca46e",
+        "GUID:8f762cc16b4484e4a8f812ad5bbfd537",
+        "GUID:9f9b3b29b12b2bc469bbbc700ef1031b",
+        "GUID:69448af7b92c7f342b298e06a37122aa"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

@@ -1,0 +1,282 @@
+[
+    {
+        "model": "i18n.language",
+        "pk": 1,
+        "fields": {
+            "lan_code": "sv-AX",
+            "lan_name": "Swedish",
+            "reg_code": "AX",
+            "reg_name": "\u00c3\u2026land Islands"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 2,
+        "fields": {
+            "lan_code": "bg-BG",
+            "lan_name": "Bulgarian",
+            "reg_code": "BG",
+            "reg_name": "Bulgaria"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 3,
+        "fields": {
+            "lan_code": "fr-CH",
+            "lan_name": "French",
+            "reg_code": "CH",
+            "reg_name": "Switzerland"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 4,
+        "fields": {
+            "lan_code": "zh-CN",
+            "lan_name": "Chinese",
+            "reg_code": "CN",
+            "reg_name": "China"
+        }
+    },  
+    {
+        "model": "i18n.language",
+        "pk": 5,
+        "fields": {
+            "lan_code": "hu-CS",
+            "lan_name": "Hungarian",
+            "reg_code": "CS",
+            "reg_name": "Serbia And Montenegro"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 6,
+        "fields": {
+            "lan_code": "el-CY",
+            "lan_name": "Greek",
+            "reg_code": "CY",
+            "reg_name": "Cyprus"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 7,
+        "fields": {
+            "lan_code": "tr-CY",
+            "lan_name": "Turkish",
+            "reg_code": "CY",
+            "reg_name": "Cyprus"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 8,
+        "fields": {
+            "lan_code": "cs-CZ",
+            "lan_name": "Czech",
+            "reg_code": "CZ",
+            "reg_name": "Czech Republic"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 9,
+        "fields": {
+            "lan_code": "de-DE",
+            "lan_name": "German",
+            "reg_code": "DE",
+            "reg_name": "Germany"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 10,
+        "fields": {
+            "lan_code": "da-DK",
+            "lan_name": "Danish",
+            "reg_code": "DK",
+            "reg_name": "Denmark"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 11,
+        "fields": {
+            "lan_code": "es-ES",
+            "lan_name": "Spanish",
+            "reg_code": "ES",
+            "reg_name": "Spain"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 12,
+        "fields": {
+            "lan_code": "fi-FI",
+            "lan_name": "Finnish",
+            "reg_code": "FI",
+            "reg_name": "Finland"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 13,
+        "fields": {
+            "lan_code": "fr-FR",
+            "lan_name": "French",
+            "reg_code": "FR",
+            "reg_name": "France"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 14,
+        "fields": {
+            "lan_code": "en-GB",
+            "lan_name": "English",
+            "reg_code": "GB",
+            "reg_name": "United Kingdom"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 15,
+        "fields": {
+            "lan_code": "hr-HR",
+            "lan_name": "Croatian",
+            "reg_code": "HR",
+            "reg_name": "Croatia"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 16,
+        "fields": {
+            "lan_code": "hu-HU",
+            "lan_name": "Hungarian",
+            "reg_code": "HU",
+            "reg_name": "Hungary"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 17,
+        "fields": {
+            "lan_code": "it-IT",
+            "lan_name": "Italian",
+            "reg_code": "IT",
+            "reg_name": "Italy"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 18,
+        "fields": {
+            "lan_code": "ja-JP",
+            "lan_name": "Japanese",
+            "reg_code": "JP",
+            "reg_name": "Japan"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 19,
+        "fields": {
+            "lan_code": "nl-NL",
+            "lan_name": "Dutch",
+            "reg_code": "NL",
+            "reg_name": "Netherlands"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 20,
+        "fields": {
+            "lan_code": "no-NO",
+            "lan_name": "Norwegian",
+            "reg_code": "NO",
+            "reg_name": "Norway"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 21,
+        "fields": {
+            "lan_code": "pl-PL",
+            "lan_name": "Polish",
+            "reg_code": "PL",
+            "reg_name": "Poland"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 22,
+        "fields": {
+            "lan_code": "pt-PT",
+            "lan_name": "Portuguese",
+            "reg_code": "PT",
+            "reg_name": "Portugal"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 23,
+        "fields": {
+            "lan_code": "ro-RO",
+            "lan_name": "Romanian",
+            "reg_code": "RO",
+            "reg_name": "Romania"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 24,
+        "fields": {
+            "lan_code": "ru-RU",
+            "lan_name": "Russian",
+            "reg_code": "RU",
+            "reg_name": "Russian Federation"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 25,
+        "fields": {
+            "lan_code": "sv-SE",
+            "lan_name": "Swedish",
+            "reg_code": "SE",
+            "reg_name": "Sweden"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 26,
+        "fields": {
+            "lan_code": "tr-TR",
+            "lan_name": "Turkish",
+            "reg_code": "TR",
+            "reg_name": "Turkey"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 27,
+        "fields": {
+            "lan_code": "uk-UA",
+            "lan_name": "Ukrainian",
+            "reg_code": "UA",
+            "reg_name": "Ukraine"
+        }
+    },
+    {
+        "model": "i18n.language",
+        "pk": 28,
+        "fields": {
+            "lan_code": "en-US",
+            "lan_name": "English",
+            "reg_code": "US",
+            "reg_name": "United States"
+        }
+    }
+]

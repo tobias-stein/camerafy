@@ -1,0 +1,32 @@
+﻿{
+  "EnableNativeRenderAPILogging": true,
+  "UserLogin": false,
+  "SessionId": "d908cfc82b447891a4625635dcb7aeae",
+  "MaximumUserSlots": 3,
+  "UserSessionTimout": 60,
+  "UserConnectingTimout": 10,
+  "UserInactiveTimeout": 10,
+  "LoadingScreenFadeTime": 1.0,
+  "CamerafyUrl": "192.168.0.24",
+  "CamerafyPort": 1988,
+  "CamerafySecure": false,
+  "CamerafyBackendUrl": "192.168.0.24",
+  "CamerafyBackendPort": 1989,
+  "CamerafyBackend_SessionLogin": "session",
+  "CamerafyBackend_SessionPassword": "session",
+  "CamerafyFrontendUrl": "192.168.0.24",
+  "CamerafyFrontendPort": 1990,
+  "SignaligServer": "192.168.0.24",
+  "SignaligServerPort": 61613,
+  "EnableWebrtcLogging": false,
+  "iceServers": [
+    {
+      "urls": "stun:stun.l.google.com:19302",
+      "username": "",
+      "credential": ""
+    }
+  ],
+  "MaxFps": 60,
+  "MaxFrameWidth": 640,
+  "MaxFrameHeight": 480
+}
